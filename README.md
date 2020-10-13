@@ -23,7 +23,7 @@ Java实验项目
 
 6.在PC类中添加setCPU(CPU c)将参数c的值赋值给cpu，添加setHardDisk(HardDisk h)方法将参数h的值赋值给HD；
 
-7.添加show()方法能显示cpu的速度和字节及硬盘的容量和质量；
+7.添加show()方法能显示cpu的速度和字节及硬盘的容量和质量；  
 
 8.在主类Test的main方法中创建一个CPU对象cpu，将cpu自己的speed设置为2200；创建一个HardDisk对象disk，将disk自己的amount设置为200；创建一个PC对象pc；
 
@@ -36,3 +36,44 @@ public void  setSpeed(int m){
 		this.speed=m;
 	}
 ```
+2.方法二
+```
+public void  setzLong(int l){
+		this.zlong=l;
+	}
+```
+3.方法三
+```
+public void setAmount(int m){
+		this.amount=m;
+	}
+```
+4.方法四
+```
+public void setWeight(float w){
+		this.weight=w;
+	}
+
+```
+5.方法五
+```
+public void setHardDisk(HardDisk h){
+	this.HD=h;
+}
+```
+6.方法六
+```
+public void show(){
+	System.out.println("CPU速度为"+cpu.getSpeed());
+	System.out.println("CPU字长为"+cpu.getzLong());
+	System.out.println("硬盘容量为"+HD.getAmount());
+	System.out.println("硬盘重量为"+HD.getWeight());
+}
+```
+
+##实验结果
+
+
+
+
+##实验感想
