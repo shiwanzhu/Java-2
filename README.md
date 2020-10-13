@@ -1,0 +1,38 @@
+# Java-2
+Java实验项目
+
+#阅读程序
+
+##实验目的
+1.理解 Java 语言是如何体现面向对象编程基本思想的；
+
+2.掌握类的声明以及对象的创建；
+
+3.了解类的成员变量和成员方法的特性以及类的构造方法的使用。
+
+##实验过程
+1.打开eclipse 创建Java项目Test2
+
+2.在Java项目中 创建4个包分别为a，b，c，d
+
+3.在a包中创建PC类，b包中创建CPU类，在c包中创建HardDisk类，在d包中创建Test类
+
+4.在CPU类中添加getSpeed()返回speed的值，添加setSpeed(int m)方法将参数m的值赋值给speed；
+
+5.在HardDisk类中添加getAmount()返回amount的值，添加setAmount(int m)方法将参数m的值赋值给amount;
+
+6.在PC类中添加setCPU(CPU c)将参数c的值赋值给cpu，添加setHardDisk(HardDisk h)方法将参数h的值赋值给HD；
+
+7.添加show()方法能显示cpu的速度和字节及硬盘的容量和质量；
+
+8.在主类Test的main方法中创建一个CPU对象cpu，将cpu自己的speed设置为2200；创建一个HardDisk对象disk，将disk自己的amount设置为200；创建一个PC对象pc；
+
+9.在主类Test的main方法中用pc调用setCPU(CPU c)方法，调用实参是cpu;调用setHardDisk(HardDisk h)方法，调用时实参是disk；调用show()方法。
+
+##核心方法
+1.方法一
+```
+public void  setSpeed(int m){
+		this.speed=m;
+	}
+```
