@@ -2,6 +2,8 @@ package b;
 
 public class CPU {
 	int speed,zlong;
+	CPU(){
+	}
 	public int getSpeed(){
 		return speed;
 	}
