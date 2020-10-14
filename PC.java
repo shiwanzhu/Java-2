@@ -9,13 +9,15 @@ public class PC {
 	public void setCPU(CPU c){
 	this.cpu=c;
 }
+PC(){
+}
 public void setHardDisk(HardDisk h){
 	this.HD=h;
 }
 public void show(){
-	System.out.println("CPUËÙ¶ÈÎª"+cpu.getSpeed());
-	System.out.println("CPU×Ö³¤Îª"+cpu.getzLong());
-	System.out.println("Ó²ÅÌÈİÁ¿Îª"+HD.getAmount());
-	System.out.println("Ó²ÅÌÖØÁ¿Îª"+HD.getWeight());
+	System.out.println("CPUé€Ÿåº¦ä¸º"+cpu.getSpeed());
+	System.out.println("CPUå­—é•¿ä¸º"+cpu.getzLong());
+	System.out.println("ç¡¬ç›˜å®¹é‡ä¸º"+HD.getAmount());
+	System.out.println("ç¡¬ç›˜é‡é‡ä¸º"+HD.getWeight());
 }
 }
